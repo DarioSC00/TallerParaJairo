@@ -1,0 +1,261 @@
+body{display: flex;
+    flex-direction: column;
+    background-image: url(./images.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+.coming-soon-regular {
+    font-family: "Coming Soon", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+header {
+    background-color: #00000067;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.Logo img {
+    width: 100px; 
+    height: auto; 
+    border-radius: 50%;
+}
+
+.Htitle {
+    margin-top: 10px; 
+    color: #ffffff; 
+    font-family: Arial, sans-serif; 
+    font-size: 24px;
+    padding-left: 10%;
+}
+
+.Logo{
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+}
+
+nav {
+    background-color: #333; 
+    padding: 10px; 
+    text-align: center;    
+}
+
+nav ul {
+    display: inline-block; 
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+
+nav ul a {
+    display: block; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    color: #fff;   
+}
+
+nav ul a:hover {
+    background-color: #555; 
+    border-radius: 5px; 
+}
+
+.col-md-6{
+    padding-top: 20px;
+}
+
+.seccion-izquierda {
+    text-align: left; 
+}
+
+.seccion-izquierda, .seccion1 {
+    background-color: #ffffffe5; /* Color de fondo */
+    padding: 20px; /* Espacio interno */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 3px; /* Borde redondeado */
+}
+
+.seccion-izquierda {
+    margin-right: 20px; /* Espacio entre las secciones */
+}
+
+/* Estilos adicionales según sea necesario */
+
+.seccion1 {
+    padding: 50px 0; 
+    text-align: center; 
+}
+
+.seccion1 h1 {
+    margin-bottom: 30px; 
+    color: #333; 
+}
+
+.seccion1 .container {
+    max-width: 900px;
+    margin: 0 auto; 
+}
+
+.seccion1 .row {
+    margin-top: 30px; 
+}
+
+.seccion1 .col-6 {
+    padding: 30px;
+}
+
+.seccion1 img {
+    max-width: 100%; 
+    height: auto;
+    display: block; 
+    margin: 0 auto 20px;
+    padding: 15px;
+}
+
+.imageRow {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; 
+    }
+    to {
+        opacity: 1; 
+    }
+}
+
+
+
+.seccion-izquierda2 {
+    background-color: #f2f2f2; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    margin-right: 10px; 
+    text-align: center;
+}
+
+.profesorIMG{
+    width: 300px;
+    height: auto;
+}
+
+.seccion2 {
+    padding: 50px 0; 
+    text-align: center; 
+    background-color: #f9f9f9; 
+}
+
+.section2 h3{
+text-align: center;
+}
+
+
+.seccion2 .container {
+    max-width: 900px; 
+    margin: 0 auto; 
+}
+
+.seccion2 .row {
+    margin-top: 30px; 
+}
+
+.seccion2 .col {
+    padding: 0 15px; 
+}
+
+.seccion2 img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto 20px; 
+}
+
+.seccion2 p {
+    color: #555; 
+    font-size: 18px; 
+    line-height: 1.6; 
+}
+
+.seccion3 {
+    padding: 50px 0; 
+    text-align: center;
+}
+
+.seccion3 .col{
+    color: #ffffff;
+    background-color: #333;
+    border-radius: 3px;
+    padding-top: 12px;
+}
+
+.seccion3 .container {
+    max-width: 900px; 
+    margin: 0 auto; 
+}
+
+.seccion3 .row {
+    margin-top: 30px; 
+}
+
+.seccion3 video {
+    max-width: 100%; 
+    height: auto;
+    margin: 0 auto 20px; 
+    outline: none; 
+    border: none; 
+    justify-content: space-between;
+}
+
+
+.Footer {
+    background-color: #333; /* Color de fondo del footer */
+    color: #fff; /* Color del texto */
+    padding: 50px 0; /* Espaciado interno del footer */
+    text-align: center; /* Alineación del contenido al centro */
+}
+
+.Footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.Footer-title {
+    margin-bottom: 20px;
+}
+
+.Footer-title h4 {
+    margin-bottom: 10px;
+}
+
+.Footer-title ul {
+    list-style: none;
+    padding: 0;
+}
+
+.Footer-title ul li {
+    margin-bottom: 5px;
+}
+
+.Redes-Sociales img {
+    width: 30px; /* Tamaño de los íconos de redes sociales */
+    margin: 5px; /* Espacio entre los íconos */
+}
+
+
